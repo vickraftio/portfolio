@@ -1,8 +1,8 @@
-import './App.css'
-import About from './components/About'
-import HeroSection from './components/HeroSection'
-import Navbar from './components/Navbar'
-import ProjectsSection from './components/ProjectsSection'
+import './App.css';
+import About from './components/About';
+import HeroSection from './components/HeroSection';
+import Navbar from './components/Navbar';
+import ProjectsSection from './components/ProjectsSection';
 
 function App() {
 
@@ -19,10 +19,10 @@ function App() {
         <ProjectsSection />
       </main>
       <footer className='px-14 py-6 text-center bg-gray-900 text-sm text-gray-300'>
-        &copy; Copyright 2022, Vignesh
+        &copy; Copyright 2022-{(new Date()).getFullYear()} Vignesh
       </footer>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
